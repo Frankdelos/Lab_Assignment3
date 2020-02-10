@@ -76,7 +76,7 @@
     color: red;
 }
 .btn-bordered{
-    border-color: #ccc ;
+    border: 1px solid #ccc;
 }
 .product-table {
     width: 100%;
@@ -95,6 +95,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    text-align: center;
     grid-column-gap: 1em;
     margin: 20px 0px;
 }
