@@ -56,8 +56,6 @@
 
 .art-content {
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-column-gap: 1em;
 }
 .art-c1-content {
     display: grid;
@@ -222,3 +220,23 @@ ul.footer-list > li > img {
 
 }
 /* footer end */
+
+/* art container grid */
+.art-container-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1em;
+    justify-items: center;
+
+}
+.artist-card {
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+h2.small {
+    font-size: 1.5em;
+    padding: 20px 1px 10px;
+}
+/* end art container grid */
